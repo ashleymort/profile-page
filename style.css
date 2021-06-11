@@ -5,6 +5,7 @@ html {
 body {
   background-color: hsla(170, 25%, 15%, 1);
   color: hsla(170, 25%, 95%, 1);
+  font-family: "Raleway", sans-serif;
 }
 header {
   background-image: url(./Images/banner.jpg);
@@ -19,12 +20,20 @@ header {
 
 h1 {
   font-size: 100px;
+  font-style: italic;
   text-align: center;
   padding-right: 50px;
   color: white;
   padding-top: 160px;
+  font-family: "DM Serif Text", serif;
+}
+h2 {
+  font-family: "DM Serif Text", serif;
 }
 
+h3 {
+  font-family: "DM Serif Text", serif;
+}
 nav {
   display: flex;
   flex-direction: row;
