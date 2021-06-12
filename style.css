@@ -105,34 +105,55 @@ section p {
   padding-bottom: 50px;
 }
 .icon {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 
 h4 {
   font-size: 12px;
   text-align: right;
   color: rgba(248, 244, 9, 0.774);
+  padding-right: 1rem;
 }
 .acknowlegment {
   font-size: 10px;
   text-align: right;
   color: white;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 .acknowlegment a {
   color: rgba(248, 244, 9, 0.774);
 }
 #contactContainerMain {
   display: flex;
-  width: 180px;
+  width: 200px;
   align-content: flex-start;
   justify-content: space-evenly;
   padding-bottom: 200px;
   padding-left: 50px;
 }
+footer {
+  background-image: url("./Images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+footer a {
+  text-decoration: none;
+}
 
 /* contact page styling*/
-
+#contactBackground {
+  background-image: url("./Images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 #contactContainer {
   display: flex;
   width: 180px;
