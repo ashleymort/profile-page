@@ -5,6 +5,7 @@ html {
 body {
   background-color: hsla(78, 100%, 4%, 0.995);
   font-family: "Raleway", sans-serif;
+  font-size: 18px;
 }
 
 main {
@@ -79,11 +80,20 @@ nav a {
 }
 
 #profilePhoto {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   background-clip: border-box;
   border: 0.5px solid rgba(248, 244, 9, 0.774);
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+section p {
+  padding-left: 25px;
+  text-align: justify;
+  padding-right: 25px;
+  float: clear;
 }
 
 .skillsContainer {
