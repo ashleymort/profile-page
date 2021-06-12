@@ -3,43 +3,41 @@ html {
   box-sizing: border-box;
 }
 body {
-  background-color: hsla(170, 25%, 15%, 1);
-  color: hsla(170, 25%, 95%, 1);
+  background-color: hsla(78, 100%, 4%, 0.995);
   font-family: "Raleway", sans-serif;
 }
-header {
-  background-image: url(./Images/banner.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
-  margin-top: 50px;
-  border-bottom: 0.5px solid yellow;
-  position: relative;
+
+main {
+  background-color: hsla(71, 20%, 89%, 0.993);
+  color: hsla(78, 100%, 4%, 0.995);
+  padding-left: 50px;
 }
 
 h1 {
   font-size: 100px;
   font-style: italic;
-  text-align: center;
-  padding-right: 50px;
-  color: white;
-  padding-top: 160px;
+  text-align: left;
+  padding-left: 50px;
+  color: rgba(248, 244, 9, 0.774);
+  padding-top: 175px;
   font-family: "DM Serif Text", serif;
 }
 h2 {
-  font-family: "DM Serif Text", serif;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
 }
 
 h3 {
-  font-family: "DM Serif Text", serif;
+  font-family: "Raleway", sans-serif;
+  padding-left: 50px;
+  font-size: 30px;
 }
 nav {
   display: flex;
   flex-direction: row;
   align-content: flex-end;
   justify-content: space-evenly;
-  background-color: hsla(180, 95%, 7%, 0.993);
+  background-color: hsla(72, 100%, 1%, 0.993);
   opacity: 0.9;
   position: fixed;
   width: 98.55%;
@@ -51,10 +49,30 @@ nav {
 }
 
 nav a {
+  font-family: "Raleway", sans-serif;
   display: inline-flex;
   font-size: 30px;
   color: white;
   text-align: right;
+}
+
+.headerPic1 {
+  width: 200px;
+  height: 200px;
+  float: right;
+  display: none;
+  margin-top: 100px;
+  margin-right: 50px;
+  border: 1px solid hsl(60, 100%, 50%);
+}
+.headerPic2 {
+  width: 200px;
+  height: 200px;
+  float: right;
+  display: inline;
+  margin-top: 100px;
+  margin-right: 50px;
+  border: 1px solid hsl(60, 100%, 50%);
 }
 
 #profilePhoto {
@@ -64,12 +82,14 @@ nav a {
   background-clip: border-box;
   border: 0.5px solid yellow;
 }
+
 .skillsContainer {
   display: flex;
   align-content: center;
   justify-content: space-between;
   padding-left: 100px;
   padding-right: 100px;
+  padding-bottom: 50px;
 }
 .icon {
   width: 25px;
