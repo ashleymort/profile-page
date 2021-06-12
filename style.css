@@ -11,6 +11,7 @@ main {
   background-color: hsla(71, 20%, 89%, 0.993);
   color: hsla(78, 100%, 4%, 0.995);
   padding-left: 50px;
+  padding-top: 25px;
 }
 
 h1 {
@@ -31,17 +32,18 @@ h3 {
   font-family: "Raleway", sans-serif;
   padding-left: 50px;
   font-size: 30px;
+  color: rgba(248, 244, 9, 0.774);
 }
 nav {
   display: flex;
   flex-direction: row;
   align-content: flex-end;
   justify-content: space-evenly;
-  background-color: hsla(72, 100%, 1%, 0.993);
+  background-color: hsla(78, 100%, 4%, 0.995);
   opacity: 0.9;
   position: fixed;
   width: 98.55%;
-  border-bottom: 0.5px solid yellow;
+  border-bottom: 0.5px solid rgba(248, 244, 9, 0.774);
   padding-top: 25px;
   padding-bottom: 25px;
   margin-bottom: 500px;
@@ -52,8 +54,9 @@ nav a {
   font-family: "Raleway", sans-serif;
   display: inline-flex;
   font-size: 30px;
-  color: white;
+  color: rgba(248, 244, 9, 0.774);
   text-align: right;
+  text-decoration: none;
 }
 
 .headerPic1 {
@@ -63,7 +66,7 @@ nav a {
   display: none;
   margin-top: 100px;
   margin-right: 50px;
-  border: 1px solid hsl(60, 100%, 50%);
+  border: 1px solid rgba(248, 244, 9, 0.774);
 }
 .headerPic2 {
   width: 200px;
@@ -72,7 +75,7 @@ nav a {
   display: inline;
   margin-top: 100px;
   margin-right: 50px;
-  border: 1px solid hsl(60, 100%, 50%);
+  border: 1px solid rgba(248, 244, 9, 0.774);
 }
 
 #profilePhoto {
@@ -80,7 +83,7 @@ nav a {
   height: 300px;
   border-radius: 50%;
   background-clip: border-box;
-  border: 0.5px solid yellow;
+  border: 0.5px solid rgba(248, 244, 9, 0.774);
 }
 
 .skillsContainer {
@@ -99,7 +102,8 @@ nav a {
 .acknowlegment {
   font-size: 10px;
   text-align: right;
+  color: white;
 }
 .acknowlegment a {
-  color: yellow;
+  color: rgba(248, 244, 9, 0.774);
 }
