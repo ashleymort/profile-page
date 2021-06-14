@@ -170,7 +170,7 @@ footer a {
   h1 {
     font-size: 2rem;
     text-align: left;
-    margin-left: 0;
+    padding-left: 1rem;
     padding-top: 2rem;
   }
   h2,
@@ -189,15 +189,12 @@ footer a {
     margin-top: 0.5rem;
     margin-right: 0;
   }
-  #profilePic {
-    display: block;
-    position: absolute;
-  }
+
   nav {
     flex-direction: column;
-    position: relative;
+    position: static;
     align-content: space-between;
-    justify-content: left;
+    justify-content: center;
   }
   nav a {
     font-size: 1.25rem;
@@ -228,11 +225,14 @@ footer a {
     justify-content: center;
     padding-bottom: 1rem;
   }
+  section p {
+    display: block;
+  }
   @media only screen and (max-width: 320px) {
     h1 {
       font-size: 2rem;
       text-align: left;
-      margin-left: 0;
+      padding-left: 1rem;
       padding-top: 2rem;
     }
     h2,
@@ -255,12 +255,14 @@ footer a {
     #profilePic {
       display: block;
       position: absolute;
+      width: 96%;
+      margin: 0;
     }
     nav {
       flex-direction: column;
       position: relative;
       align-content: space-between;
-      justify-content: left;
+      justify-content: center;
     }
     nav a {
       font-size: 1.25rem;
@@ -293,5 +295,8 @@ footer a {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-bottom: 1rem;
+  }
+  section p {
+    display: block;
   }
 }
