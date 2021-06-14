@@ -55,20 +55,19 @@ nav a {
   display: inline-flex;
   font-size: 1.875rem;
   color: rgba(248, 244, 9, 0.774);
-  text-align: right;
   text-decoration: none;
 }
 
-.headerPic1 {
+#headerPic1 {
   width: 12.5rem;
   height: 12.5rem;
   float: right;
   display: none;
-  margin-top: 100px;
-  margin-right: 50px;
+  margin-top: 6.25rem;
+  margin-right: 3.125rem;
   border: 0.0625rem solid rgba(248, 244, 9, 0.774);
 }
-.headerPic2 {
+#headerPic2 {
   width: 12.5rem;
   height: 12.5rem;
   float: right;
@@ -82,7 +81,6 @@ nav a {
   width: 33%;
   height: 33%;
   border-radius: 50%;
-  background-clip: border-box;
   border: 0.03125rem solid rgba(248, 244, 9, 0.774);
   float: left;
   margin-right: 1.5625rem;
@@ -160,4 +158,97 @@ footer a {
   align-content: flex-start;
   justify-content: space-evenly;
   padding-bottom: 12.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 0;
+    padding-top: 2rem;
+  }
+  h2,
+  h3 {
+    text-align: center;
+  }
+  #headerPic1 {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 0.5rem;
+    margin-right: 0;
+  }
+  #headerPic2 {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 0.5rem;
+    margin-right: 0;
+  }
+  #profilePic {
+    display: block;
+    position: absolute;
+  }
+  nav {
+    flex-direction: column;
+    position: relative;
+    align-content: space-between;
+    justify-content: left;
+  }
+  nav a {
+    font-size: 1.25rem;
+  }
+  section p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    float: none;
+    font-size: 1rem;
+  }
+  main {
+    padding-left: 1rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 0;
+    padding-top: 2rem;
+  }
+  h2,
+  h3 {
+    text-align: center;
+  }
+  #headerPic1 {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 0.5rem;
+    margin-right: 0;
+  }
+  #headerPic2 {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 0.5rem;
+    margin-right: 0;
+  }
+  #profilePic {
+    display: block;
+    position: absolute;
+  }
+  nav {
+    flex-direction: column;
+    position: relative;
+    align-content: space-between;
+    justify-content: left;
+  }
+  nav a {
+    font-size: 1.25rem;
+  }
+  section p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    float: none;
+    font-size: 1rem;
+  }
+  main {
+    padding-left: 1rem;
+  }
 }
