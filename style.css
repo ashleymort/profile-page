@@ -105,6 +105,7 @@ section p {
 .icon {
   width: 1.875rem;
   height: 1.875rem;
+  margin: 0.3125rem;
 }
 
 h4 {
@@ -128,6 +129,7 @@ h4 {
 }
 #contactContainerMain {
   display: flex;
+  flex-direction: row;
   width: 12.5rem;
   align-content: flex-start;
   justify-content: space-evenly;
@@ -157,6 +159,7 @@ footer a {
 }
 #contactContainer {
   display: flex;
+  flex-direction: row;
   width: 11.25rem;
   align-content: flex-start;
   justify-content: space-evenly;
@@ -213,56 +216,82 @@ footer a {
     padding-left: -20px;
     flex-direction: column;
   }
-}
-@media only screen and (max-width: 320px) {
-  h1 {
-    font-size: 2rem;
-    text-align: left;
-    margin-left: 0;
-    padding-top: 2rem;
-  }
-  h2,
-  h3 {
-    text-align: center;
-  }
-  #headerPic1 {
-    width: 8rem;
-    height: 8rem;
-    margin-top: 0.5rem;
-    margin-right: 0;
-    display: none;
-  }
-  #headerPic2 {
-    width: 8rem;
-    height: 8rem;
-    margin-top: 0.5rem;
-    margin-right: 0;
-  }
-  #profilePic {
-    display: block;
-    position: absolute;
-  }
-  nav {
+  #contactContainerMain {
+    width: 3 rem;
+    padding-left: -20px;
     flex-direction: column;
-    position: relative;
-    align-content: space-between;
-    justify-content: left;
   }
-  nav a {
-    font-size: 1.25rem;
+  .skillsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 1rem;
   }
-  section p {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    float: none;
-    font-size: 1rem;
+  @media only screen and (max-width: 320px) {
+    h1 {
+      font-size: 2rem;
+      text-align: left;
+      margin-left: 0;
+      padding-top: 2rem;
+    }
+    h2,
+    h3 {
+      text-align: center;
+    }
+    #headerPic1 {
+      width: 8rem;
+      height: 8rem;
+      margin-top: 0.5rem;
+      margin-right: 0;
+      display: none;
+    }
+    #headerPic2 {
+      width: 8rem;
+      height: 8rem;
+      margin-top: 0.5rem;
+      margin-right: 0;
+    }
+    #profilePic {
+      display: block;
+      position: absolute;
+    }
+    nav {
+      flex-direction: column;
+      position: relative;
+      align-content: space-between;
+      justify-content: left;
+    }
+    nav a {
+      font-size: 1.25rem;
+    }
+    section p {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      float: none;
+      font-size: 1rem;
+    }
+    main {
+      padding-left: 1rem;
+    }
+    #contactContainer {
+      width: 6.5rem;
+      padding-left: 1rem;
+      flex-direction: column;
+    }
+    #contactContainerMain {
+      width: 3 rem;
+      padding-left: -20px;
+      flex-direction: column;
+    }
   }
-  main {
-    padding-left: 1rem;
-  }
-  #contactContainer {
-    width: 6.5rem;
-    padding-left: 1rem;
-    flex-direction: column;
+  .skillsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
   }
 }
