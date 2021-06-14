@@ -57,8 +57,9 @@ nav a {
   color: rgba(248, 244, 9, 0.774);
   text-decoration: none;
 }
-nav a:hover{
+nav a:hover {
   color: rgba(248, 244, 9, 0.157);
+  font-weight: bold;
 }
 
 #headerPic1 {
@@ -96,7 +97,7 @@ section p {
   float: clear;
 }
 section ul {
-  list-style: none;
+  list-style: disc;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -104,19 +105,20 @@ section ul {
   justify-content: space-evenly;
 }
 .btn {
-  color: rgba(248, 244, 9, 0.774);
-  background-color: hsla(78, 100%, 4%, 0.995);
-  border: 1px solid rgba(248, 244, 9, 0.774);
+  color: hsla(78, 100%, 4%, 0.995);
+  font-size: 1.125rem;
+  background-color: transparent;
   cursor: pointer;
   padding: 0.5rem;
   margin-bottom: 3rem;
+  border: none;
 }
 .btn:hover {
   color: hsla(78, 100%, 4%, 0.995);
-  background-color: rgba(248, 244, 9, 0.774);
+  background-color: transparent;
+  font-weight: bold;
 }
 
-}
 #skills {
   margin-top: 3rem;
 }
