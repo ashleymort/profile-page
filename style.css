@@ -5,118 +5,118 @@ html {
 body {
   background-color: hsla(78, 100%, 4%, 0.995);
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 main {
   background-color: hsla(71, 20%, 89%, 0.993);
   color: hsla(78, 100%, 4%, 0.995);
-  padding-left: 50px;
-  padding-top: 25px;
+  padding-left: 3.125rem;
+  padding-top: 1.5625rem;
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 6.25rem;
   font-style: italic;
   text-align: left;
-  padding-left: 50px;
+  padding-left: 3.125rem;
   color: rgba(248, 244, 9, 0.774);
-  padding-top: 175px;
+  padding-top: 10.9375rem;
   font-family: "DM Serif Text", serif;
 }
 h2 {
   font-family: "Raleway", sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 h3 {
   font-family: "Raleway", sans-serif;
-  padding-left: 50px;
-  font-size: 30px;
+  padding-left: 3.125rem;
+  font-size: 1.875rem;
   color: rgba(248, 244, 9, 0.774);
 }
 nav {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   align-content: flex-end;
   justify-content: space-evenly;
   background-color: hsla(78, 100%, 4%, 0.995);
   opacity: 0.9;
   position: fixed;
   width: 98.55%;
-  border-bottom: 0.5px solid rgba(248, 244, 9, 0.774);
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-bottom: 500px;
+  border-bottom: 0.03125rem solid rgba(248, 244, 9, 0.774);
+  padding-top: 1.5625rem;
+  padding-bottom: 1.5625rem;
   z-index: 2;
 }
 
 nav a {
   font-family: "Raleway", sans-serif;
   display: inline-flex;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: rgba(248, 244, 9, 0.774);
   text-align: right;
   text-decoration: none;
 }
 
 .headerPic1 {
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 12.5rem;
   float: right;
   display: none;
   margin-top: 100px;
   margin-right: 50px;
-  border: 1px solid rgba(248, 244, 9, 0.774);
+  border: 0.0625rem solid rgba(248, 244, 9, 0.774);
 }
 .headerPic2 {
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 12.5rem;
   float: right;
   display: inline;
-  margin-top: 100px;
-  margin-right: 50px;
+  margin-top: 6.25rem;
+  margin-right: 3.125rem;
   border: 1px solid rgba(248, 244, 9, 0.774);
 }
 
 #profilePhoto {
-  width: 350px;
-  height: 350px;
+  width: 33%;
+  height: 33%;
   border-radius: 50%;
   background-clip: border-box;
-  border: 0.5px solid rgba(248, 244, 9, 0.774);
+  border: 0.03125rem solid rgba(248, 244, 9, 0.774);
   float: left;
-  margin-right: 25px;
-  margin-bottom: 25px;
+  margin-right: 1.5625rem;
+  margin-bottom: 1.5625rem;
 }
 section p {
-  padding-left: 25px;
+  padding-left: 1.5625rem;
   text-align: justify;
-  padding-right: 25px;
+  padding-right: 1.5625rem;
   float: clear;
 }
 
 .skillsContainer {
   display: flex;
+  flex-flow: row wrap;
   align-content: center;
-  justify-content: space-between;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 50px;
+  justify-content: space-evenly;
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
+  padding-bottom: 3.125rem;
 }
 .icon {
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
 }
 
 h4 {
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: right;
   color: rgba(248, 244, 9, 0.774);
   padding-right: 1rem;
 }
 .acknowlegment {
-  font-size: 10px;
+  font-size: 0.625rem;
   text-align: right;
   color: white;
   padding-right: 1rem;
@@ -127,11 +127,11 @@ h4 {
 }
 #contactContainerMain {
   display: flex;
-  width: 200px;
+  width: 12.5rem;
   align-content: flex-start;
   justify-content: space-evenly;
-  padding-bottom: 200px;
-  padding-left: 50px;
+  padding-bottom: 12.5rem;
+  padding-left: 3.125rem;
 }
 footer {
   background-image: url("./Images/background.jpg");
@@ -156,8 +156,8 @@ footer a {
 }
 #contactContainer {
   display: flex;
-  width: 180px;
+  width: 11.25rem;
   align-content: flex-start;
   justify-content: space-evenly;
-  padding-bottom: 200px;
+  padding-bottom: 12.5rem;
 }
