@@ -57,6 +57,9 @@ nav a {
   color: rgba(248, 244, 9, 0.774);
   text-decoration: none;
 }
+nav a:hover{
+  color: rgba(248, 244, 9, 0.157);
+}
 
 #headerPic1 {
   width: 12.5rem;
@@ -92,7 +95,31 @@ section p {
   padding-right: 1.5625rem;
   float: clear;
 }
+section ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: left;
+  justify-content: space-evenly;
+}
+.btn {
+  color: rgba(248, 244, 9, 0.774);
+  background-color: hsla(78, 100%, 4%, 0.995);
+  border: 1px solid rgba(248, 244, 9, 0.774);
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-bottom: 3rem;
+}
+.btn:hover {
+  color: hsla(78, 100%, 4%, 0.995);
+  background-color: rgba(248, 244, 9, 0.774);
+}
 
+}
+#skills {
+  margin-top: 3rem;
+}
 .skillsContainer {
   display: flex;
   flex-flow: row wrap;
