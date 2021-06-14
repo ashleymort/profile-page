@@ -123,6 +123,9 @@ h4 {
 .acknowlegment a {
   color: rgba(248, 244, 9, 0.774);
 }
+.contactHead {
+  color: rgba(248, 244, 9, 0.774);
+}
 #contactContainerMain {
   display: flex;
   width: 12.5rem;
@@ -208,6 +211,7 @@ footer a {
   #contactContainer {
     width: 3 rem;
     padding-left: -20px;
+    flex-direction: column;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -259,5 +263,6 @@ footer a {
   #contactContainer {
     width: 6.5rem;
     padding-left: 1rem;
+    flex-direction: column;
   }
 }
