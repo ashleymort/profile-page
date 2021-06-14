@@ -222,6 +222,7 @@ footer a {
     height: 8rem;
     margin-top: 0.5rem;
     margin-right: 0;
+    display: none;
   }
   #headerPic2 {
     width: 8rem;
