@@ -1,12 +1,16 @@
-const headPicture1 = document.getElementById('headerPic1');
-const headPicture2 = document.getElementById('headerPic2');
-
-headPicture1.onclick('headerPic1'); {
-    headPicture1.style.display = hidden;
+const image_tracker = 'orange';
+function change() {
+    var image = document.getElementById('headerPic2');
+    if (image_tracker == 'run-dmc') {
+        image.src = 'boys.jpg';
+        image_tracker = 'blue';
+    }
+    else {
+        image.src = 'run-dmc';
+        image_tracker = 'orange';
+    }
 }
-headPicture2.onclick('headerPic2'); {
-    headPicture2.style.display = hidden;
-}
-const headingPicture = function () {
-
+var timer = setInterval('change();', 1000);
+function stop() {
+    clearInterval(timer); //the clearInterval method stops the timer from running
 }
