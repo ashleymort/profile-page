@@ -109,6 +109,10 @@ header {
   color: hsla(59, 94%, 50%, 0.774);
   border-top: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
 }
+.projectSection span {
+  font-size: 10px;
+  color: hsla(59, 94%, 50%, 0.157);
+}
 section p {
   padding-left: 1.5625rem;
   text-align: justify;
