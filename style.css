@@ -11,7 +11,6 @@ body {
 main {
   background-color: hsla(78, 100%, 4%, 0.995);
   color: hsla(71, 20%, 89%, 0.993);
-
   padding-top: 1.5625rem;
 }
 
@@ -274,7 +273,9 @@ footer a {
   }
   h2,
   h3 {
-    text-align: center;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
   }
   #headerPic1 {
     width: 8rem;
@@ -292,21 +293,38 @@ footer a {
   nav {
     flex-direction: column;
     position: static;
-    align-content: space-between;
+    align-content: center;
     justify-content: center;
   }
   nav a {
     font-size: 1.25rem;
   }
+
   section p {
     padding-left: 1rem;
     padding-right: 1rem;
-    float: none;
+
     font-size: 1rem;
   }
-  main {
-    padding-left: 1rem;
+  section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: left;
+    justify-content: space-evenly;
   }
+  .mixedMessagePic,
+  .hikeClubPic,
+  .excursionPic,
+  .recordBoxPic,
+  .teaCozyPic {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 85%;
+    display: inline;
+  }
+
   #contactContainer {
     width: 3 rem;
     padding-left: -20px;
@@ -323,9 +341,15 @@ footer a {
     align-content: center;
     justify-content: center;
     padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
   section p {
     display: block;
+  }
+  .btn {
+    margin-bottom: 100px;
   }
   @media only screen and (max-width: 320px) {
     h1 {
@@ -336,7 +360,7 @@ footer a {
     }
     h2,
     h3 {
-      text-align: center;
+      text-align: left;
     }
     #headerPic1 {
       width: 8rem;
@@ -354,8 +378,8 @@ footer a {
     #profilePic {
       display: block;
       position: absolute;
-      width: 96%;
-      margin: 0;
+      width: 20rem;
+      margin: auto;
     }
     nav {
       flex-direction: column;
