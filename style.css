@@ -20,14 +20,14 @@ h1 {
   font-style: italic;
   text-align: left;
   padding-left: 3.125rem;
-  color: rgba(0, 0, 0, 0.7);
+  color: hsla(0, 0%, 0%, 0.7);
   padding-top: 10.9375rem;
   font-family: "DM Serif Text", serif;
 }
 h2 {
   font-family: "Raleway", sans-serif;
   font-size: 1.875rem;
-  color: rgba(248, 244, 9, 0.774);
+  color: hsla(59, 94%, 50%, 0.774);
   padding-left: 3.125rem;
 }
 
@@ -35,7 +35,7 @@ h3 {
   font-family: "Raleway", sans-serif;
   padding-left: 3.125rem;
   font-size: 1.875rem;
-  color: rgba(248, 244, 9, 0.774);
+  color: hsla(59, 94%, 50%, 0.774);
 }
 nav {
   display: flex;
@@ -46,7 +46,7 @@ nav {
 
   position: fixed;
   width: 98.55%;
-  border-bottom: 0.03125rem solid rgba(248, 244, 9, 0.774);
+  border-bottom: 0.03125rem solid hsla(59, 94%, 50%, 0.774);
   padding-top: 1.5625rem;
   padding-bottom: 1.5625rem;
   z-index: 2;
@@ -56,11 +56,11 @@ nav a {
   font-family: "Raleway", sans-serif;
   display: inline-flex;
   font-size: 1.875rem;
-  color: rgba(248, 244, 9, 0.774);
+  color: hsla(59, 94%, 50%, 0.774);
   text-decoration: none;
 }
 nav a:hover {
-  color: rgba(248, 244, 9, 0.157);
+  color: hsla(59, 94%, 50%, 0.157);
   font-weight: bold;
 }
 header {
@@ -69,6 +69,7 @@ header {
   background-position: left;
   background-size: cover;
   opacity: 0.8;
+  max-height: 400px;
 }
 
 #headerPic1 {
@@ -78,7 +79,7 @@ header {
   display: none;
   margin-top: 6.25rem;
   margin-right: 3.125rem;
-  border: 0.0625rem solid rgba(248, 244, 9, 0.774);
+  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
   padding-bottom: 1rem;
   opacity: 1;
 }
@@ -89,7 +90,7 @@ header {
   display: inline;
   margin-top: 6.25rem;
   margin-right: 3.125rem;
-  border: 1px solid rgba(248, 244, 9, 0.774);
+  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
   opacity: 1;
 }
 
@@ -97,7 +98,7 @@ header {
   width: 33%;
   height: 33%;
   border-radius: 50%;
-  border: 0.03125rem solid rgba(248, 244, 9, 0.774);
+  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
   float: left;
   margin-right: 1.5625rem;
   margin-bottom: 2rem;
@@ -105,8 +106,8 @@ header {
 }
 .projectSection {
   background-color: hsla(78, 100%, 4%, 0.995);
-  color: rgba(248, 244, 9, 0.774);
-  border-top: 0.5px solid rgba(248, 244, 9, 0.774);
+  color: hsla(59, 94%, 50%, 0.774);
+  border-top: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
 }
 section p {
   padding-left: 1.5625rem;
@@ -124,7 +125,7 @@ section ul {
 }
 
 .btn {
-  color: rgba(248, 244, 9, 0.774);
+  color: hsla(59, 94%, 50%, 0.774);
   font-size: 1.125rem;
   background-color: transparent;
   cursor: pointer;
@@ -133,7 +134,7 @@ section ul {
   border: none;
 }
 .btn:hover {
-  color: rgba(248, 244, 9, 0.157);
+  color: hsla(59, 94%, 50%, 0.157);
   background-color: transparent;
   font-weight: bold;
 }
@@ -144,40 +145,40 @@ section ul {
 .dropdown-content {
   display: none;
   position: absolute;
-  width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.6);
+  width: 10rem;
+  box-shadow: 0px 8px 16px 0px hsla(0, 0%, 0%, 0.6);
   z-index: 1;
 }
 .dropdown:hover .dropdown-content {
   display: block;
 }
 .mixedMessagePic {
-  width: 160px;
-  height: 160px;
-  border: 0.5px solid rgba(248, 244, 9, 0.774);
+  width: 10rem;
+  height: 10rem;
+  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
 }
 .recordBoxPic {
-  width: 160px;
-  height: 160px;
-  border: 0.5px solid rgba(248, 244, 9, 0.774);
+  width: 10rem;
+  height: 10rem;
+  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
 }
 .hikeClubPic {
-  width: 160px;
-  height: 160px;
-  border: 0.5px solid rgba(248, 244, 9, 0.774);
+  width: 10rem;
+  height: 10rem;
+  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
 }
 .teaCozyPic {
-  width: 160px;
-  height: 160px;
-  border: 0.5px solid rgba(248, 244, 9, 0.774);
+  width: 10rem;
+  height: 10rem;
+  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
 }
 .excursionPic {
-  width: 160px;
-  height: 160px;
-  border: 0.5px solid rgba(248, 244, 9, 0.774);
+  width: 10rem;
+  height: 10rem;
+  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
 }
 .skillsSection {
-  background-color: rgba(248, 244, 9, 0.157);
+  background-color: hsla(59, 94%, 50%, 0.157);
   color: hsla(78, 100%, 4%, 0.995);
 }
 #skills {
@@ -202,21 +203,27 @@ section ul {
 h4 {
   font-size: 0.75rem;
   text-align: right;
-  color: rgba(248, 244, 9, 0.774);
+  color: hsla(59, 94%, 50%, 0.774);
   padding-right: 1rem;
 }
 .acknowlegment {
   font-size: 0.625rem;
   text-align: right;
-  color: white;
+  color: hsl(0, 0%, 100%);
   padding-right: 1rem;
   padding-bottom: 1rem;
 }
 .acknowlegment a {
-  color: rgba(248, 244, 9, 0.774);
+  color: hsla(59, 94%, 50%, 0.774);
 }
 .contactHead {
-  color: rgba(248, 244, 9, 0.774);
+  color: hsla(59, 94%, 50%, 0.774);
+}
+.headerContact {
+  background-image: none;
+}
+.contactMainHeading {
+  color: hsla(59, 94%, 50%, 0.774);
 }
 #contactContainerMain {
   display: flex;
@@ -245,8 +252,13 @@ footer a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 1rem;
+  margin-top: 1rem;
   padding-bottom: 1rem;
+  opacity: 1;
+  z-index: 2;
+}
+#contactBackground p {
+  padding-left: 1rem;
 }
 #contactContainer {
   display: flex;
@@ -367,6 +379,7 @@ footer a {
     main {
       padding-left: 1rem;
     }
+
     #contactContainer {
       width: 6.5rem;
       padding-left: 1rem;
