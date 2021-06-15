@@ -299,11 +299,15 @@ footer a {
   nav a {
     font-size: 1.25rem;
   }
-
+  #profilePhoto {
+    width: 350px;
+    height: 350px;
+    margin: 0 0 2rem 1.5rem;
+  }
   section p {
     padding-left: 1rem;
     padding-right: 1rem;
-
+    text-align: left;
     font-size: 1rem;
   }
   section ul {
@@ -375,11 +379,9 @@ footer a {
       margin-top: 0.5rem;
       margin-right: 0;
     }
-    #profilePic {
-      display: block;
-      position: absolute;
-      width: 20rem;
-      margin: auto;
+    #profilePhoto {
+      width: 400px;
+      height: 400px;
     }
     nav {
       flex-direction: column;
