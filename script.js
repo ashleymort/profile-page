@@ -1,16 +1,17 @@
-const image_tracker = 'orange';
+let image_tracker = "boys";
 function change() {
-    var image = document.getElementById('headerPic2');
-    if (image_tracker == 'run-dmc') {
-        image.src = 'boys.jpg';
-        image_tracker = 'blue';
-    }
-    else {
-        image.src = 'run-dmc';
-        image_tracker = 'orange';
+    let image = document.getElementById("headerPic2");
+    image.src = "Images/boys.jpg"
+    if (image_tracker == "boys") {
+        image.src = "Images/run-dmc.jpg";
+        image_tracker = "run";
+    } else {
+        image.src = "Images/boys.jpg";
+        image_tracker = "boys";
     }
 }
 var timer = setInterval('change();', 1000);
+
 function stop() {
-    clearInterval(timer); //the clearInterval method stops the timer from running
+    clearInterval(timer);
 }
