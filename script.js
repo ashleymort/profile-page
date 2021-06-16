@@ -10,7 +10,7 @@ function change() {
         image_tracker = "boys";
     }
 }
-var timer = setInterval('change();', 1000);
+var timer = setInterval('change();', 2000);
 
 function stop() {
     clearInterval(timer);

@@ -119,13 +119,16 @@ section ul {
   justify-content: space-evenly;
 }
 
-.btn {
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5 {
   color: hsla(59, 94%, 50%, 0.774);
   font-size: 1.125rem;
   background-color: transparent;
   cursor: pointer;
-  padding: 0.5rem;
-  margin-bottom: 3rem;
+
   border: none;
 }
 .btn:hover {
@@ -291,18 +294,20 @@ footer a {
   }
 
   nav {
-    flex-direction: column;
+    flex-direction: row;
     position: static;
     align-content: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   nav a {
     font-size: 1.25rem;
   }
   #profilePhoto {
-    width: 350px;
-    height: 350px;
+    width: 20rem;
+    height: 20rem;
     margin-bottom: 2rem;
+    margin-left: 0.8rem;
+    margin-right: auto;
   }
   section p {
     padding-left: 1rem;
@@ -323,10 +328,9 @@ footer a {
   .excursionPic,
   .recordBoxPic,
   .teaCozyPic {
-    width: 10rem;
-    height: 10rem;
-    margin-left: 85%;
-    display: inline;
+    width: 8rem;
+    height: 8rem;
+    display: block;
   }
 
   #contactContainer {
@@ -336,7 +340,7 @@ footer a {
   }
   #contactContainerMain {
     width: 3 rem;
-    padding-left: -20px;
+    padding-left: -1.25rem;
     flex-direction: column;
   }
   .skillsContainer {
@@ -352,9 +356,7 @@ footer a {
   section p {
     display: block;
   }
-  .btn {
-    margin-bottom: 100px;
-  }
+
   @media only screen and (max-width: 320px) {
     h1 {
       font-size: 2rem;
@@ -380,8 +382,10 @@ footer a {
       margin-right: 0;
     }
     #profilePhoto {
-      width: 400px;
-      height: 400px;
+      margin-left: 1.5625rem;
+      margin-right: 1.5625rem;
+      width: 17.5rem;
+      height: 17.5rem;
     }
     nav {
       flex-direction: column;
@@ -409,7 +413,7 @@ footer a {
     }
     #contactContainerMain {
       width: 3 rem;
-      padding-left: -20px;
+      padding-left: -1.25rem;
       flex-direction: column;
     }
   }
