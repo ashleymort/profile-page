@@ -330,7 +330,7 @@ footer a {
   .teaCozyPic {
     width: 8rem;
     height: 8rem;
-    display: block;
+    display: inline-flex;
   }
 
   #contactContainer {
