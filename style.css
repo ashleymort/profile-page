@@ -12,15 +12,17 @@ main {
   background-color: hsla(78, 100%, 4%, 0.995);
   color: hsla(71, 20%, 89%, 0.993);
   padding-top: 1.5625rem;
+  max-width: 1200px;
+  border-top: 0.03125rem solid hsla(59, 94%, 50%, 0.774);
 }
 
 h1 {
-  font-size: 6.25rem;
+  font-size: 6.8rem;
   font-style: italic;
   text-align: left;
   padding-left: 3.125rem;
   color: hsla(59, 94%, 50%, 0.774);
-  padding-top: 10.9375rem;
+  padding-top: 7rem;
   font-family: "DM Serif Text", serif;
 }
 h2 {
@@ -41,7 +43,7 @@ nav {
   flex-flow: row wrap;
   align-content: flex-end;
   justify-content: space-evenly;
-  background-color: hsla(78, 100%, 4%, 0.993);
+  background-color: hsla(59, 94%, 50%, 0.157);
 
   position: fixed;
   width: 98.55%;
@@ -55,11 +57,11 @@ nav a {
   font-family: "Raleway", sans-serif;
   display: inline-flex;
   font-size: 1.875rem;
-  color: hsla(59, 94%, 50%, 0.774);
+  color: hsla(78, 100%, 4%, 0.995);
   text-decoration: none;
 }
 nav a:hover {
-  color: hsla(59, 94%, 50%, 0.157);
+  color: hsla(78, 100%, 4%, 0.774);
   font-weight: bold;
 }
 
@@ -68,9 +70,9 @@ nav a:hover {
   height: 12.5rem;
   float: right;
   display: none;
-  margin-top: 6.25rem;
+  margin-top: 7rem;
   margin-right: 3.125rem;
-  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
+  border: 0.03125rem solid hsla(59, 94%, 50%, 0.774);
   padding-bottom: 1rem;
   opacity: 1;
 }
@@ -79,9 +81,9 @@ nav a:hover {
   height: 12.5rem;
   float: right;
   display: inline;
-  margin-top: 6.25rem;
+  margin-top: 7rem;
   margin-right: 3.125rem;
-  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
+  border: 0.03125rem solid hsla(59, 94%, 50%, 0.774);
   opacity: 1;
 }
 
@@ -89,7 +91,7 @@ nav a:hover {
   width: 33%;
   height: 33%;
   border-radius: 50%;
-  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
+  border: 0.03125rem solid hsla(59, 94%, 50%, 0.774);
   float: left;
   margin-right: 1.5625rem;
   margin-bottom: 2rem;
@@ -98,7 +100,7 @@ nav a:hover {
 .projectSection {
   background-color: hsla(78, 100%, 4%, 0.995);
   color: hsla(59, 94%, 50%, 0.774);
-  border-top: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
+  border-top: 0.03125rem solid hsla(59, 94%, 50%, 0.774);
 }
 .projectSection span {
   font-size: 10px;
@@ -110,7 +112,7 @@ section p {
   padding-right: 1.5625rem;
   float: clear;
 }
-section ul {
+.projectContainer {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -153,27 +155,27 @@ section ul {
 .mixedMessagePic {
   width: 10rem;
   height: 10rem;
-  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
+  border: 0.03125rem solid hsla(59, 94%, 50%, 0.774);
 }
 .recordBoxPic {
   width: 10rem;
   height: 10rem;
-  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
+  border: 0.03125rem solid hsla(59, 94%, 50%, 0.774);
 }
 .hikeClubPic {
   width: 10rem;
   height: 10rem;
-  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
+  border: 0.03125rem solid hsla(59, 94%, 50%, 0.774);
 }
 .teaCozyPic {
   width: 10rem;
   height: 10rem;
-  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
+  border: 0.03125rem solid hsla(59, 94%, 50%, 0.774);
 }
 .excursionPic {
   width: 10rem;
   height: 10rem;
-  border: 0.0625rem solid hsla(59, 94%, 50%, 0.774);
+  border: 0.03125rem solid hsla(59, 94%, 50%, 0.774);
 }
 .skillsSection {
   background-color: hsla(59, 94%, 50%, 0.157);
@@ -250,7 +252,7 @@ footer a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 1rem;
+  margin-top: 3rem;
   padding-bottom: 1rem;
   opacity: 1;
   z-index: 2;
